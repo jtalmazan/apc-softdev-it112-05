@@ -1,0 +1,64 @@
+Date: Tue, 4 Mar 2014 06:31:55 +0100
+Return-Path: <webmaster@example.com>
+From: webmaster@example.com
+Message-ID: <81dac95b66112ebc58ba32afc460f447@localhost>
+X-Priority: 3
+X-Mailer: PHPMailer 5.2.6 (https://github.com/PHPMailer/PHPMailer/)
+MIME-Version: 1.0
+Content-Type: multipart/alternative;
+	boundary="b1_81dac95b66112ebc58ba32afc460f447"
+Content-Transfer-Encoding: 8bit
+To: nfcheng23@gmail.com
+Subject: Admin
+
+--b1_81dac95b66112ebc58ba32afc460f447
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Gado & Jess Jalandoni Scholarships            
+		
+		
+            
+            	Contact form            
+		
+		
+            
+				Username : kgica
+
+
+--b1_81dac95b66112ebc58ba32afc460f447
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<html>
+<head>
+	<meta content="text/html; charset=UTF-8" http-equiv="content-type">
+</head>
+<table cellspacing="0" cellpadding="10" style="color:#666;font:13px Arial;line-height:1.4em;width:100%;">
+	<tbody>
+		<tr>
+            <td style="color:#4D90FE;font-size:22px;border-bottom: 2px solid #4D90FE;">
+				Gado &amp; Jess Jalandoni Scholarships            </td>
+		</tr>
+		<tr>
+            <td style="color:#777;font-size:16px;padding-top:5px;">
+            	Contact form            </td>
+		</tr>
+		<tr>
+            <td>
+				<p>Username : kgica</p>
+            </td>
+		</tr>
+		<tr>
+            <td style="padding:15px 20px;text-align:right;padding-top:5px;border-top:solid 1px #dfdfdf">
+				<a href="http://www.yiiframework.com/"><img alt="yiiframework.com" src="yii.png" /></a>
+			</td>
+		</tr>
+	</tbody>
+</table>
+</body>
+</html>
+
+
+
+--b1_81dac95b66112ebc58ba32afc460f447--
