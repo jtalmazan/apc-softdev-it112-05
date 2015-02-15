@@ -1,1 +1,0 @@
-Marc jomari taliman
