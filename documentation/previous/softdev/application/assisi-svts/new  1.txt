@@ -1,0 +1,106 @@
+<?php
+/* @var $this ContactInfoController */
+/* @var $model ContactInfo */
+/* @var $form CActiveForm */
+?>
+
+<div class="form">
+
+<?php $form=$this->beginWidget('CActiveForm', array(
+	'id'=>'contact-info-form',
+	// Please note: When you enable ajax validation, make sure the corresponding
+	// controller action is handling ajax validation correctly.
+	// There is a call to performAjaxValidation() commented in generated controller code.
+	// See class documentation of CActiveForm for details on this.
+	'enableAjaxValidation'=>false,
+)); ?>
+
+	<p class="note">Fields with <span class="required">*</span> are required.</p>
+
+	<?php echo $form->errorSummary($model); ?>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'firstName'); ?>
+		<?php echo $form->textField($model,'firstName',array('size'=>25,'maxlength'=>25)); ?>
+		<?php echo $form->error($model,'firstName'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'middleName'); ?>
+		<?php echo $form->textField($model,'middleName',array('size'=>25,'maxlength'=>25)); ?>
+		<?php echo $form->error($model,'middleName'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'lastName'); ?>
+		<?php echo $form->textField($model,'lastName',array('size'=>25,'maxlength'=>25)); ?>
+		<?php echo $form->error($model,'lastName'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'birth_date'); ?>
+		<?php echo $form->textField($model,'birth_date'); ?>
+		<?php echo $form->error($model,'birth_date'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'organizationName'); ?>
+		<?php echo $form->textField($model,'organizationName',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->error($model,'organizationName'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'contactNumber'); ?>
+		<?php echo $form->textField($model,'contactNumber',array('size'=>25,'maxlength'=>25)); ?>
+		<?php echo $form->error($model,'contactNumber'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'email'); ?>
+		<?php echo $form->textField($model,'email',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->error($model,'email'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'address'); ?>
+		<?php echo $form->textField($model,'address',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->error($model,'address'); ?>
+	</div>
+	
+		<div class="row">
+		<?php echo $form->labelEx($model,'Village'); ?>
+		<?php echo $form->textField($model,'Village',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->error($model,'Village'); ?>
+	</div>
+	
+		<div class="row">
+		<?php echo $form->labelEx($model,'City'); ?>
+		<?php echo $form->textField($model,'City',array('size'=>60,'maxlength'=>100)); ?>
+		<?php echo $form->error($model,'City'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'heard'); ?>
+		<?php echo $form->dropDownList($model,'heard',array(''=>'Select where you hear','Flyers'=>'Flyers','Billboards'=>'Billboards','Websites'=>'Websites','Referrals'=>'Referrals','Prints/Magazines'=>'Prints/Magazines','Other'=>'Other')); ?>
+		<?php echo $form->error($model,'heard'); ?>
+	</div>
+	
+	<div class="row">
+		<?php echo $form->labelEx($model,'day'); ?>
+		<?php echo $form->dropDownList($model,'day',array(''=>'Select what day','Day1'=>'Day1','Day2'=>'Day2','Day3'=>'Day3')); ?>
+		<?php echo $form->error($model,'day'); ?>
+	</div>
+
+	<div class="row">
+		<?php echo $form->labelEx($model,'Comments'); ?>
+		<?php echo $form->textField($model,'Comments',array('size'=>60,'maxlength'=>200)); ?>
+		<?php echo $form->error($model,'Comments'); ?>
+	</div>
+
+	<div class="row buttons">
+		<?php echo CHtml::submitButton($model->isNewRecord ? 'Create' : 'Save'); ?>
+	</div>
+
+<?php $this->endWidget(); ?>
+
+</div><!-- form -->
