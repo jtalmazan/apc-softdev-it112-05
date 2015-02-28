@@ -16,24 +16,24 @@ body {
 
 .footer {
     height: 60px;
-    background-color: #f5f5f5;
+    background-color: green;
     border-top: 1px solid #ddd;
     padding-top: 20px;
 }
 
 .jumbotron {
     text-align: center;
-    background-color: transparent;
+    background-color: gray;
 }
 
 .jumbotron .btn {
-    font-size: 21px;
+    font-size: 35px;
     padding: 14px 24px;
 }
 
 .not-set {
     color: #c55;
-    font-style: italic;
+    font-style: bold;
 }
 
 /* add sorting icons to gridview sort links */
@@ -41,9 +41,9 @@ a.asc:after, a.desc:after {
     position: relative;
     top: 1px;
     display: inline-block;
-    font-family: 'Glyphicons Halflings';
-    font-style: normal;
-    font-weight: normal;
+    font-family: 'Arial';
+    font-style: Arial;
+    font-weight: bold;
     line-height: 1;
     padding-left: 5px;
 }
@@ -84,8 +84,9 @@ a.desc:after {
 
 .error-summary {
     color: #a94442;
-    background: #fdf7f7;
+    background: red;
     border-left: 3px solid #eed3d7;
     padding: 10px 20px;
     margin: 0 0 15px 0;
 }
+
