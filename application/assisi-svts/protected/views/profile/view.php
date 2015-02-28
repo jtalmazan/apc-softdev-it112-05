@@ -191,9 +191,16 @@ $this->report=array(
 // )); 
 $this->widget('editable.EditableDetailView', array(
     'data'=>$application,
-    'apply' => false,
+   
     'attributes'=>array(
-        'Schoolname',
+	array(
+        'name' =>'Schoolname',
+		 'editable' => array(
+                'type'       => 'select',
+                'source'    => Editable::source(School::model()->getSchools()),
+                'placement' => 'right',           
+            )
+        ),
         'TypeOfApplication',
         'Course',
         'Duration',
