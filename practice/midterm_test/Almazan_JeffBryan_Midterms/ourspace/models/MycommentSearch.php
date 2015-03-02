@@ -5,12 +5,12 @@ namespace app\models;
 use Yii;
 use yii\base\Model;
 use yii\data\ActiveDataProvider;
-use app\models\mycomment;
+use app\models\Mycomment;
 
 /**
- * mycommentSearch represents the model behind the search form about `app\models\mycomment`.
+ * MycommentSearch represents the model behind the search form about `app\models\Mycomment`.
  */
-class mycommentSearch extends mycomment
+class MycommentSearch extends Mycomment
 {
     /**
      * @inheritdoc
@@ -41,7 +41,7 @@ class mycommentSearch extends mycomment
      */
     public function search($params)
     {
-        $query = mycomment::find();
+        $query = Mycomment::find();
 
         $dataProvider = new ActiveDataProvider([
             'query' => $query,
