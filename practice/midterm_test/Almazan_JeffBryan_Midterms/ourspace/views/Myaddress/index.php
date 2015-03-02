@@ -4,7 +4,7 @@ use yii\helpers\Html;
 use yii\grid\GridView;
 
 /* @var $this yii\web\View */
-/* @var $searchModel app\models\MyaddressSearch */
+/* @var $searchModel app\models\myaddressSearch */
 /* @var $dataProvider yii\data\ActiveDataProvider */
 
 $this->title = 'Myaddresses';
@@ -31,6 +31,9 @@ $this->params['breadcrumbs'][] = $this->title;
             'lastname',
             'gender',
             // 'created_at',
+            // 'home_address',
+            // 'landline',
+            // 'cellphone',
 
             ['class' => 'yii\grid\ActionColumn'],
         ],
