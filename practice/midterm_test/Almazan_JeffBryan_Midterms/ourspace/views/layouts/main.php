@@ -39,7 +39,7 @@ AppAsset::register($this);
                     ['label' => 'About', 'url' => ['/site/about']],
                     ['label' => 'Contact', 'url' => ['/site/contact']],
 					 ['label' => 'Address', 'url' => ['/myaddress/index']],
-				  ['label' => 'Comment', 'url' => ['/Mycomments/index']],
+					 ['label' => 'Comment', 'url' => ['/mycomment/index']],
                     Yii::$app->user->isGuest ?
                         ['label' => 'Login', 'url' => ['/site/login']] :
                         ['label' => 'Logout (' . Yii::$app->user->identity->username . ')',

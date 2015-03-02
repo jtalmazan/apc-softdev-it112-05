@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 02, 2015 at 03:54 AM
+-- Generation Time: Mar 02, 2015 at 04:34 AM
 -- Server version: 5.6.14
 -- PHP Version: 5.5.6
 
@@ -37,7 +37,14 @@ CREATE TABLE IF NOT EXISTS `myaddress` (
   `landline` varchar(20) DEFAULT NULL,
   `cellphone` varchar(20) DEFAULT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+--
+-- Dumping data for table `myaddress`
+--
+
+INSERT INTO `myaddress` (`id`, `firstname`, `middlename`, `lastname`, `gender`, `created_at`, `home_address`, `landline`, `cellphone`) VALUES
+(1, 'Jeff', 'Talatagod', 'Almazan', 'M', '0000-00-00 00:00:00', 'Annex 35', '5051735', '09067554495');
 
 -- --------------------------------------------------------
 
@@ -50,20 +57,16 @@ CREATE TABLE IF NOT EXISTS `mycomment` (
   `myaddress_id` int(25) NOT NULL,
   `author` varchar(255) NOT NULL,
   `body` longtext NOT NULL,
-  `created_at` timestamp NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
-  PRIMARY KEY (`id`),
-  KEY `mycomment_ibfk_1` (`myaddress_id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+  `created_at` timestamp(6) NOT NULL DEFAULT CURRENT_TIMESTAMP(6) ON UPDATE CURRENT_TIMESTAMP(6),
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
 
 --
--- Constraints for dumped tables
+-- Dumping data for table `mycomment`
 --
 
---
--- Constraints for table `mycomment`
---
-ALTER TABLE `mycomment`
-  ADD CONSTRAINT `mycomment_ibfk_1` FOREIGN KEY (`myaddress_id`) REFERENCES `myaddress` (`id`);
+INSERT INTO `mycomment` (`id`, `myaddress_id`, `author`, `body`, `created_at`) VALUES
+(1, 1, 'Jacob Black', 'What''s up people', '0000-00-00 00:00:00.000000');
 
 /*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
 /*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
