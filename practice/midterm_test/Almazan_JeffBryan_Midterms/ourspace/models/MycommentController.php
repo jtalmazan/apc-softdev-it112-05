@@ -3,14 +3,14 @@
 namespace app\models;
 
 use Yii;
-use app\models\Mycomment;
-use app\models\MycommentSearch;
+use app\models\mycomment;
+use app\models\mycommentSearch;
 use yii\web\Controller;
 use yii\web\NotFoundHttpException;
 use yii\filters\VerbFilter;
 
 /**
- * MycommentController implements the CRUD actions for Mycomment model.
+ * MycommentController implements the CRUD actions for mycomment model.
  */
 class MycommentController extends Controller
 {
@@ -27,12 +27,12 @@ class MycommentController extends Controller
     }
 
     /**
-     * Lists all Mycomment models.
+     * Lists all mycomment models.
      * @return mixed
      */
     public function actionIndex()
     {
-        $searchModel = new MycommentSearch();
+        $searchModel = new mycommentSearch();
         $dataProvider = $searchModel->search(Yii::$app->request->queryParams);
 
         return $this->render('index', [
@@ -42,7 +42,7 @@ class MycommentController extends Controller
     }
 
     /**
-     * Displays a single Mycomment model.
+     * Displays a single mycomment model.
      * @param integer $id
      * @return mixed
      */
@@ -54,13 +54,13 @@ class MycommentController extends Controller
     }
 
     /**
-     * Creates a new Mycomment model.
+     * Creates a new mycomment model.
      * If creation is successful, the browser will be redirected to the 'view' page.
      * @return mixed
      */
     public function actionCreate()
     {
-        $model = new Mycomment();
+        $model = new mycomment();
 
         if ($model->load(Yii::$app->request->post()) && $model->save()) {
             return $this->redirect(['view', 'id' => $model->id]);
@@ -72,7 +72,7 @@ class MycommentController extends Controller
     }
 
     /**
-     * Updates an existing Mycomment model.
+     * Updates an existing mycomment model.
      * If update is successful, the browser will be redirected to the 'view' page.
      * @param integer $id
      * @return mixed
@@ -91,7 +91,7 @@ class MycommentController extends Controller
     }
 
     /**
-     * Deletes an existing Mycomment model.
+     * Deletes an existing mycomment model.
      * If deletion is successful, the browser will be redirected to the 'index' page.
      * @param integer $id
      * @return mixed
@@ -104,15 +104,15 @@ class MycommentController extends Controller
     }
 
     /**
-     * Finds the Mycomment model based on its primary key value.
+     * Finds the mycomment model based on its primary key value.
      * If the model is not found, a 404 HTTP exception will be thrown.
      * @param integer $id
-     * @return Mycomment the loaded model
+     * @return mycomment the loaded model
      * @throws NotFoundHttpException if the model cannot be found
      */
     protected function findModel($id)
     {
-        if (($model = Mycomment::findOne($id)) !== null) {
+        if (($model = mycomment::findOne($id)) !== null) {
             return $model;
         } else {
             throw new NotFoundHttpException('The requested page does not exist.');
