@@ -75,7 +75,7 @@ class Profile extends CActiveRecord
 			array('Middlename', 'length', 'max'=>30),
 			array('Religion', 'length', 'max'=>30),
 			array('PlaceOfBirth', 'length', 'max'=>45),
-			array('Occupation ', 'length', 'max'=>30),
+			//array('Occupation ', 'length', 'max'=>30),
 			array('Address', 'length', 'max'=>200),
 			array('ContactNumber', 'length', 'max'=>15),
 			array('Email', 'email'),

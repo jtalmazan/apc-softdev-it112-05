@@ -26,7 +26,12 @@ $this->params['breadcrumbs'][] = $this->title;
             ['class' => 'yii\grid\SerialColumn'],
 
             'id',
-            'myaddress_id',
+            [
+            'attribute' => 'myaddress_id',
+            'label' => 'lastname',
+            'value' => 'myaddress.lastname',
+            'filter' => yii\helpers\ArrayHelper::map(app\models\Myaddress::find()->all(),'id','lastname')
+            ],
             'author',
             'body:ntext',
             'created_at',

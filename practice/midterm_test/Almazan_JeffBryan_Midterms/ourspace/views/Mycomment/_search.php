@@ -17,7 +17,14 @@ use yii\widgets\ActiveForm;
 
     <?= $form->field($model, 'id') ?>
 
-    <?= $form->field($model, 'myaddress_id') ?>
+    <?= $form->field($model, 'lastname')
+ ?>
+ <?php
+    $addresses=Myaddress::find()->all();
+    $listData=ArrayHelper::map($addresses,'id','lastname');
+    echo $form->field($model, 'myaddress_id')->dropDownList(
+        $listData,['prompt'=>'Select Lastname']);
+    ?>
 
     <?= $form->field($model, 'author') ?>
 

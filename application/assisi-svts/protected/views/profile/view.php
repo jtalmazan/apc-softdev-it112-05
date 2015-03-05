@@ -163,10 +163,10 @@ $this->report=array(
 
             ),
         ), 
-        array(
-            'name'=>'Occupation',
-            'visible'=>($type === "Student"),
-            ),
+        //array(
+          //  'name'=>'Occupation',
+           // 'visible'=>($type === "Student"),
+          //  ),
         array(
             'name'=>'FuturePlan',
             'visible'=>($type === "Student"),
@@ -233,68 +233,7 @@ $this->widget('editable.EditableDetailView', array(
 )); ?>
 
 <?php if(is_null($allocation->id)) : ?>
-<h1>Allocations</h1>
-<?php $this->widget('bootstrap.widgets.TbButton', array(
-    'label'=>'Add',
-    'icon'=>'icon-plus icon-black',
-   /* 'type'=>'primary',*/
-   'size'=>'small',
-    'htmlOptions'=>array(
-        'data-toggle'=>'modal',
-        'data-target'=>'#myModal',
-    ),
-)); ?>
-<?php $this->widget('bootstrap.widgets.TbGridView', array(
-    'id' =>'allocation-grid',
-    'itemsCssClass' =>'table-bordered items',
-    'dataProvider' =>$allocation->search($application->Id),
-    'columns'=>array(
-		array(
-			'header'=>'Timeline',
-			'name'=>'timeline_id',
-			'value'=>'$data->timeline->TermName',
-		),
-		array(
-			'class' =>'editable.EditableColumn',
-			'name' =>'TuitionFee',
-			'editable' => 
-				array(    //editable section
-				'type' => 'text',
-                 'url' => $this->createUrl('allocation/update'), 
-				'placement' => 'right',
-				),
-		),
-		
-		array(
-			'class' =>'editable.EditableColumn',
-			'name' =>'Miscellaneous',
-			'editable' => 
-				array(    //editable section
-				'type' => 'text',
-                 'url' => $this->createUrl('allocation/update'), 
-				'placement' => 'right',
-				)               
-		),
-		
-		array(
-			'class' =>'editable.EditableColumn',
-			'name' =>'Others',
-			'editable' => 
-				array(    //editable section
-				'type' => 'text',
-                 'url' => $this->createUrl('allocation/update'), 
-				'placement' => 'right',
-				), 
 
-		),
-		
-		
-	),
-)); ?>
-<div class="well pull-right">
-	<h3><b>Total Allocation</b></h3>
-	<?php  echo $allocation->getTotalTuitionFee($application->Id);?>
-</div>
 <?php endif; ?>
 <?php endif; ?>
 

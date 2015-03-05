@@ -21,8 +21,12 @@ class Mycomment extends \yii\db\ActiveRecord
     public static function tableName()
     {
         return 'mycomment';
+		
     }
 
+	public function getMyaddressName() {
+		return $this->myaddress->lastname; 
+		}
     /**
      * @inheritdoc
      */
@@ -48,6 +52,7 @@ class Mycomment extends \yii\db\ActiveRecord
             'author' => 'Author',
             'body' => 'Body',
             'created_at' => 'Created At',
+			'myaddressName' => 'Lastname',
         ];
     }
 }

@@ -23,7 +23,7 @@ $type = Role::model()->findByPk($user->Role_Id)->Name;
 		<ul class="nav nav-tabs" id="tabs">
 			<li class="active"><a href="#profile" data-toggle="tab">Profile</a></li>
 			<li><a href="#application" data-toggle="tab" <?php echo $model->IsStudent($type) ? "" : "style='display:none;'"; ?>>Application</a></li>
-			<li><a href="#allocation" data-toggle="tab"  <?php echo $model->IsStudent($type) ? "" : "style='display:none;'"; ?>>Allocation</a></li>
+
 		</ul>
 		<div class="tab-content">
 			<!-- Profile Tab -->
