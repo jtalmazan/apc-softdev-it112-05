@@ -1354,3 +1354,228 @@ REQUEST_URI=/softdev2015/index.php?r=profile/create&type=Student
 in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (114)
 in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
 in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php (13)
+2015/03/07 00:48:26 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (473)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (101)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+2015/03/07 00:48:27 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (473)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (101)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+2015/03/07 00:48:30 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (473)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (101)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+2015/03/07 00:48:31 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (473)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (101)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+2015/03/07 00:48:32 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (473)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (101)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+2015/03/07 00:48:35 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (473)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (101)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+2015/03/07 00:48:50 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (473)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (101)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+2015/03/07 00:48:53 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (473)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (101)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+2015/03/07 00:49:03 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (473)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (101)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+2015/03/07 00:49:08 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (473)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (101)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+2015/03/07 00:49:14 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (473)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (101)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+2015/03/07 00:49:26 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (473)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (101)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+2015/03/07 00:49:32 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (473)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (101)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+2015/03/07 00:49:35 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (473)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (101)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+2015/03/07 00:49:37 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (116)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php (13)
+2015/03/07 00:49:37 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (473)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (101)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+2015/03/07 00:53:19 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (116)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php (13)
+2015/03/07 00:53:20 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (116)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php (13)
+2015/03/07 00:53:22 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (116)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php (13)
+2015/03/07 00:53:25 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (116)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php (13)
+2015/03/07 00:53:28 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (116)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php (13)
+2015/03/07 00:55:19 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (116)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php (13)
+2015/03/07 00:55:58 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (116)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php (13)
+2015/03/07 00:55:59 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`assisi-svts1`.`timeline`, CONSTRAINT `fk_timeline_academicterm1` FOREIGN KEY (`academicterm_id`) REFERENCES `academicterm` (`Id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `timeline` (`academicyear_id`, `academicterm_id`) VALUES (:academicyear_id, :academicterm_id).
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\models\Timeline.php (63)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\models\Timeline.php (37)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (140)
+2015/03/07 00:55:59 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`assisi-svts1`.`timeline`, CONSTRAINT `fk_timeline_academicterm1` FOREIGN KEY (`academicterm_id`) REFERENCES `academicterm` (`Id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `timeline` (`academicyear_id`, `academicterm_id`) VALUES (:academicyear_id, :academicterm_id)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(1278): CDbCommand->execute(Array)
+#1 C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\models\Timeline.php(63): CDbCommand->insert('timeline', Array)
+#2 C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\models\Timeline.php(37): Timeline->Insert('3', '')
+#3 C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php(140): Timeline->getTimelineId('3', '')
+#4 [internal function]: ProfileController->actionCreate('Student')
+#5 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProfileController), Array)
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProfileController), Object(ReflectionMethod), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php(37): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): RController->filterRights(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('profile/create')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/softdev2015/index.php?r=profile/create&type=Student
+HTTP_REFERER=http://localhost/softdev2015/index.php?r=profile/create&type=Student
+---
+2015/03/07 00:56:17 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (116)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php (13)
+2015/03/07 00:56:53 [error] [exception.CException] exception 'CException' with message 'Academicyear has an invalid validation rule. The rule must specify attributes to be validated and the validator name.' in C:\xampp\htdocs\yii\framework\base\CModel.php:289
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\base\CModel.php(260): CModel->createValidators()
+#1 C:\xampp\htdocs\yii\framework\base\CModel.php(547): CModel->getValidators()
+#2 C:\xampp\htdocs\yii\framework\base\CModel.php(468): CModel->getSafeAttributeNames()
+#3 C:\xampp\htdocs\yii\framework\base\CComponent.php(152): CModel->setAttributes(Array)
+#4 C:\xampp\htdocs\yii\framework\db\ar\CActiveRecord.php(161): CComponent->__set('attributes', Array)
+#5 C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php(115): CActiveRecord->__set('attributes', Array)
+#6 [internal function]: ProfileController->actionCreate('Student')
+#7 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProfileController), Array)
+#8 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProfileController), Object(ReflectionMethod), Array)
+#9 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#10 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#12 C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php(37): CFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): RController->filterRights(Object(CFilterChain))
+#14 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#16 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#18 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#19 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#20 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#21 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#22 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('profile/create')
+#23 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#24 C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php(13): CApplication->run()
+#25 {main}
+REQUEST_URI=/softdev2015/index.php?r=profile/create&type=Student
+HTTP_REFERER=http://localhost/softdev2015/index.php?r=profile/create&type=Student
+---
+2015/03/07 00:57:04 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (116)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php (13)
+2015/03/07 00:57:07 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (116)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php (13)
+2015/03/07 00:57:09 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (116)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php (13)
+2015/03/07 00:57:40 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (116)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php (13)
+2015/03/07 00:57:47 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (473)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (101)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+2015/03/07 00:57:47 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (116)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php (13)
+2015/03/07 00:57:48 [error] [system.db.CDbCommand] CDbCommand::execute() failed: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`assisi-svts1`.`timeline`, CONSTRAINT `fk_timeline_academicterm1` FOREIGN KEY (`academicterm_id`) REFERENCES `academicterm` (`Id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `timeline` (`academicyear_id`, `academicterm_id`) VALUES (:academicyear_id, :academicterm_id).
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\models\Timeline.php (63)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\models\Timeline.php (37)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (140)
+2015/03/07 00:57:48 [error] [exception.CDbException] exception 'CDbException' with message 'CDbCommand failed to execute the SQL statement: SQLSTATE[23000]: Integrity constraint violation: 1452 Cannot add or update a child row: a foreign key constraint fails (`assisi-svts1`.`timeline`, CONSTRAINT `fk_timeline_academicterm1` FOREIGN KEY (`academicterm_id`) REFERENCES `academicterm` (`Id`) ON DELETE NO ACTION ON UPDATE NO ACTION). The SQL statement executed was: INSERT INTO `timeline` (`academicyear_id`, `academicterm_id`) VALUES (:academicyear_id, :academicterm_id)' in C:\xampp\htdocs\yii\framework\db\CDbCommand.php:358
+Stack trace:
+#0 C:\xampp\htdocs\yii\framework\db\CDbCommand.php(1278): CDbCommand->execute(Array)
+#1 C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\models\Timeline.php(63): CDbCommand->insert('timeline', Array)
+#2 C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\models\Timeline.php(37): Timeline->Insert('3', '')
+#3 C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php(140): Timeline->getTimelineId('3', '')
+#4 [internal function]: ProfileController->actionCreate('Student')
+#5 C:\xampp\htdocs\yii\framework\web\actions\CAction.php(109): ReflectionMethod->invokeArgs(Object(ProfileController), Array)
+#6 C:\xampp\htdocs\yii\framework\web\actions\CInlineAction.php(47): CAction->runWithParamsInternal(Object(ProfileController), Object(ReflectionMethod), Array)
+#7 C:\xampp\htdocs\yii\framework\web\CController.php(308): CInlineAction->runWithParams(Array)
+#8 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(133): CController->runAction(Object(CInlineAction))
+#9 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#10 C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php(37): CFilter->filter(Object(CFilterChain))
+#11 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): RController->filterRights(Object(CFilterChain))
+#12 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#13 C:\xampp\htdocs\yii\framework\web\filters\CFilter.php(40): CFilterChain->run()
+#14 C:\xampp\htdocs\yii\framework\web\CController.php(1145): CFilter->filter(Object(CFilterChain))
+#15 C:\xampp\htdocs\yii\framework\web\filters\CInlineFilter.php(58): CController->filterAccessControl(Object(CFilterChain))
+#16 C:\xampp\htdocs\yii\framework\web\filters\CFilterChain.php(130): CInlineFilter->filter(Object(CFilterChain))
+#17 C:\xampp\htdocs\yii\framework\web\CController.php(291): CFilterChain->run()
+#18 C:\xampp\htdocs\yii\framework\web\CController.php(265): CController->runActionWithFilters(Object(CInlineAction), Array)
+#19 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(282): CController->run('create')
+#20 C:\xampp\htdocs\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('profile/create')
+#21 C:\xampp\htdocs\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#22 C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php(13): CApplication->run()
+#23 {main}
+REQUEST_URI=/softdev2015/index.php?r=profile/create&type=Student
+HTTP_REFERER=http://localhost/softdev2015/index.php?r=profile/create&type=Student
+---
+2015/03/07 01:02:36 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (116)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php (13)
+2015/03/07 03:13:43 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (116)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php (13)
