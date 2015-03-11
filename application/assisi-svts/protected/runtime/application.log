@@ -1579,3 +1579,19 @@ in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php (13)
 in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (116)
 in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
 in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php (13)
+2015/03/11 16:12:33 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (473)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (101)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+2015/03/11 16:13:09 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (473)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (101)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+2015/03/11 16:15:17 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (473)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (101)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+2015/03/11 16:41:12 [warning] [application] Failed to set unsafe attribute "Id" of "Academicterm".
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (116)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
+in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php (13)

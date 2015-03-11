@@ -1,13 +1,13 @@
 -- phpMyAdmin SQL Dump
--- version 3.4.10.1deb1
+-- version 4.0.9
 -- http://www.phpmyadmin.net
 --
--- Host: localhost
--- Generation Time: Feb 28, 2015 at 05:47 AM
--- Server version: 5.5.38
--- PHP Version: 5.3.10-1ubuntu3.13
+-- Host: 127.0.0.1
+-- Generation Time: Mar 11, 2015 at 04:36 PM
+-- Server version: 5.6.14
+-- PHP Version: 5.5.6
 
-SET SQL_MODE="NO_AUTO_VALUE_ON_ZERO";
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
 SET time_zone = "+00:00";
 
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `sd-asissi-svts`
+-- Database: `assisi-svts1`
 --
 
 -- --------------------------------------------------------
@@ -89,35 +89,35 @@ CREATE TABLE IF NOT EXISTS `allocation` (
 --
 
 INSERT INTO `allocation` (`id`, `TuitionFee`, `Miscellaneous`, `Others`, `Timeline_Id`, `Application_Id`, `Sponsor_Id`) VALUES
-(1, 49000.00, 0.00, 0.00, 1, 1, 1),
-(2, 49.00, 0.00, 0.00, 1, 3, 1),
-(3, 49.00, 0.00, 0.00, 1, 2, 1),
-(4, 49.00, 0.00, 0.00, 1, 4, 1),
-(5, 49.00, 0.00, 0.00, 1, 5, 1),
-(6, 49000.00, 0.00, 0.00, 1, 6, 1),
-(7, 49000.00, 0.00, 0.00, 1, 7, 1),
-(8, 49000.00, 0.00, 0.00, 1, 8, 1),
-(9, 49000.00, 0.00, 0.00, 1, 9, 1),
-(10, 49000.00, 0.00, 0.00, 1, 10, 1),
-(11, 49000.00, 0.00, 0.00, 1, 11, 1),
-(12, 49000.00, 0.00, 0.00, 1, 12, 1),
-(13, 49.00, 0.00, 0.00, 1, 13, 1),
-(14, 49.00, 0.00, 0.00, 1, 14, 1),
-(15, 49.00, 0.00, 0.00, 1, 15, 1),
-(16, 45.00, 18.00, 0.00, 1, 16, 1),
-(17, 45.00, 16.00, 0.00, 1, 17, 1),
-(18, 45.00, 0.00, 0.00, 1, 18, 1),
-(19, 20.00, 0.00, 0.00, 1, 19, 1),
-(20, 45000.00, 0.00, 0.00, 1, 20, 1),
-(21, 45.00, 0.00, 0.00, 1, 21, 1),
-(22, 49000.00, 0.00, 0.00, 1, 22, 1),
-(23, 45000.00, 0.00, 0.00, 1, 23, 1),
-(24, 45000.00, 0.00, 0.00, 1, 24, 1),
-(25, 45000.00, 0.00, 0.00, 1, 25, 1),
-(26, 45000.00, 0.00, 0.00, 1, 26, 1),
-(27, 45000.00, 0.00, 0.00, 1, 27, 1),
-(30, 0.00, 0.00, 0.00, 10, 28, 1),
-(31, 110000.00, 50000.00, 3000.00, 17, 29, 2);
+(1, '49000.00', '0.00', '0.00', 1, 1, 1),
+(2, '49.00', '0.00', '0.00', 1, 3, 1),
+(3, '49.00', '0.00', '0.00', 1, 2, 1),
+(4, '49.00', '0.00', '0.00', 1, 4, 1),
+(5, '49.00', '0.00', '0.00', 1, 5, 1),
+(6, '49000.00', '0.00', '0.00', 1, 6, 1),
+(7, '49000.00', '0.00', '0.00', 1, 7, 1),
+(8, '49000.00', '0.00', '0.00', 1, 8, 1),
+(9, '49000.00', '0.00', '0.00', 1, 9, 1),
+(10, '49000.00', '0.00', '0.00', 1, 10, 1),
+(11, '49000.00', '0.00', '0.00', 1, 11, 1),
+(12, '49000.00', '0.00', '0.00', 1, 12, 1),
+(13, '49.00', '0.00', '0.00', 1, 13, 1),
+(14, '49.00', '0.00', '0.00', 1, 14, 1),
+(15, '49.00', '0.00', '0.00', 1, 15, 1),
+(16, '45.00', '18.00', '0.00', 1, 16, 1),
+(17, '45.00', '16.00', '0.00', 1, 17, 1),
+(18, '45.00', '0.00', '0.00', 1, 18, 1),
+(19, '20.00', '0.00', '0.00', 1, 19, 1),
+(20, '45000.00', '0.00', '0.00', 1, 20, 1),
+(21, '45.00', '0.00', '0.00', 1, 21, 1),
+(22, '49000.00', '0.00', '0.00', 1, 22, 1),
+(23, '45000.00', '0.00', '0.00', 1, 23, 1),
+(24, '45000.00', '0.00', '0.00', 1, 24, 1),
+(25, '45000.00', '0.00', '0.00', 1, 25, 1),
+(26, '45000.00', '0.00', '0.00', 1, 26, 1),
+(27, '45000.00', '0.00', '0.00', 1, 27, 1),
+(30, '0.00', '0.00', '0.00', 10, 28, 1),
+(31, '110000.00', '50000.00', '3000.00', 17, 29, 2);
 
 -- --------------------------------------------------------
 
@@ -134,7 +134,7 @@ CREATE TABLE IF NOT EXISTS `application` (
   `User_Id` int(11) NOT NULL,
   PRIMARY KEY (`Id`),
   KEY `fk_Application_User1_idx` (`User_Id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=30 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=32 ;
 
 --
 -- Dumping data for table `application`
@@ -169,15 +169,17 @@ INSERT INTO `application` (`Id`, `TypeOfApplication`, `Course`, `Duration`, `Spo
 (26, 'College', 'BS Accountancy', '', 1, 27),
 (27, 'College', 'BSBA Marketing Management', '', 1, 28),
 (28, 'College', 'Law', '4', 1, 30),
-(29, 'College', 'AB Literature', '4', 1, 32);
+(29, 'College', 'AB Literature', '4', 1, 32),
+(30, 'College', 'IT', '3', 1, 34),
+(31, 'College', 'IT', '3', 1, 35);
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `AuthAssignment`
+-- Table structure for table `authassignment`
 --
 
-CREATE TABLE IF NOT EXISTS `AuthAssignment` (
+CREATE TABLE IF NOT EXISTS `authassignment` (
   `itemname` varchar(64) NOT NULL,
   `userid` varchar(64) NOT NULL,
   `bizrule` text,
@@ -186,10 +188,10 @@ CREATE TABLE IF NOT EXISTS `AuthAssignment` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `AuthAssignment`
+-- Dumping data for table `authassignment`
 --
 
-INSERT INTO `AuthAssignment` (`itemname`, `userid`, `bizrule`, `data`) VALUES
+INSERT INTO `authassignment` (`itemname`, `userid`, `bizrule`, `data`) VALUES
 ('admin', '1', NULL, 'N;'),
 ('Coordinator', '29', NULL, NULL),
 ('Coordinator', '31', NULL, NULL),
@@ -223,10 +225,10 @@ INSERT INTO `AuthAssignment` (`itemname`, `userid`, `bizrule`, `data`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `AuthItem`
+-- Table structure for table `authitem`
 --
 
-CREATE TABLE IF NOT EXISTS `AuthItem` (
+CREATE TABLE IF NOT EXISTS `authitem` (
   `name` varchar(64) NOT NULL,
   `type` int(11) NOT NULL,
   `description` text,
@@ -236,10 +238,10 @@ CREATE TABLE IF NOT EXISTS `AuthItem` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `AuthItem`
+-- Dumping data for table `authitem`
 --
 
-INSERT INTO `AuthItem` (`name`, `type`, `description`, `bizrule`, `data`) VALUES
+INSERT INTO `authitem` (`name`, `type`, `description`, `bizrule`, `data`) VALUES
 ('admin', 2, NULL, NULL, 'N;'),
 ('Allocation.*', 1, NULL, NULL, 'N;'),
 ('Allocation.Admin', 0, NULL, NULL, 'N;'),
@@ -325,10 +327,10 @@ INSERT INTO `AuthItem` (`name`, `type`, `description`, `bizrule`, `data`) VALUES
 -- --------------------------------------------------------
 
 --
--- Table structure for table `AuthItemChild`
+-- Table structure for table `authitemchild`
 --
 
-CREATE TABLE IF NOT EXISTS `AuthItemChild` (
+CREATE TABLE IF NOT EXISTS `authitemchild` (
   `parent` varchar(64) NOT NULL,
   `child` varchar(64) NOT NULL,
   PRIMARY KEY (`parent`,`child`),
@@ -336,10 +338,10 @@ CREATE TABLE IF NOT EXISTS `AuthItemChild` (
 ) ENGINE=InnoDB DEFAULT CHARSET=latin1;
 
 --
--- Dumping data for table `AuthItemChild`
+-- Dumping data for table `authitemchild`
 --
 
-INSERT INTO `AuthItemChild` (`parent`, `child`) VALUES
+INSERT INTO `authitemchild` (`parent`, `child`) VALUES
 ('Coordinator', 'Grades.Admin'),
 ('Coordinator', 'Grades.Create'),
 ('Coordinator', 'Grades.Delete'),
@@ -380,8 +382,8 @@ CREATE TABLE IF NOT EXISTS `grades` (
 --
 
 INSERT INTO `grades` (`Id`, `GPA`, `Timeline_Id`, `Application_Id`) VALUES
-(1, 1.50, 1, 27),
-(2, 2.30, 17, 28);
+(1, '1.50', 1, 27),
+(2, '2.30', 17, 28);
 
 -- --------------------------------------------------------
 
@@ -396,7 +398,7 @@ CREATE TABLE IF NOT EXISTS `partnerschool` (
   PRIMARY KEY (`Id`),
   KEY `fk_School_has_User_User1_idx` (`User_Id`),
   KEY `fk_School_has_User_School1_idx` (`School_Id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=33 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=utf8 AUTO_INCREMENT=35 ;
 
 --
 -- Dumping data for table `partnerschool`
@@ -434,7 +436,9 @@ INSERT INTO `partnerschool` (`Id`, `School_Id`, `User_Id`) VALUES
 (29, 23, 30),
 (30, 18, 31),
 (31, 23, 32),
-(32, 23, 33);
+(32, 23, 33),
+(33, 3, 34),
+(34, 3, 35);
 
 -- --------------------------------------------------------
 
@@ -462,7 +466,7 @@ CREATE TABLE IF NOT EXISTS `profile` (
   `FuturePlan` longtext,
   PRIMARY KEY (`Id`),
   UNIQUE KEY `Email_UNIQUE` (`Email`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=35 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=37 ;
 
 --
 -- Dumping data for table `profile`
@@ -501,15 +505,17 @@ INSERT INTO `profile` (`Id`, `Lastname`, `Firstname`, `Middlename`, `Religion`, 
 (31, 'Brando', 'Dio', 'Joestar', 'Atheist', 1, '1970-01-01', 'London, England', 'Joestar Manor, London, England', '09175110623', 'wrrymail@gmail.com', '2014-05-02', '2014-05-02 06:45:35', 'Single', NULL, NULL, ''),
 (32, 'Joestar', 'George', 'Steak', '', 1, '1970-01-01', '', 'Joestar Manor, London, England', '09158976245', 'howdoyoulikeyoursteak@moo.com', '2014-05-02', '2014-05-02 06:49:09', 'Married', NULL, NULL, ''),
 (33, 'Mesina', 'Leon Jordan', 'J.', 'Catholic', 1, '1970-01-01', 'Quezon City', 'Blk 16 lt. 11 QC Ville 1 Central Ave,Diliman Quezon city', '09175110623', 'ljmesina@apc.edu.ph', '2014-05-19', '2014-05-19 03:36:09', 'Single', NULL, NULL, ''),
-(34, 'Galan', 'Sarah', 'M.', '', 0, '1981-11-12', '', 'Assisi Development Foundation Incorporated', '09232996239', 'sar_moresca@yahoo.com', '2014-05-19', '2014-05-19 03:42:01', 'Married', NULL, NULL, '');
+(34, 'Galan', 'Sarah', 'M.', '', 0, '1981-11-12', '', 'Assisi Development Foundation Incorporated', '09232996239', 'sar_moresca@yahoo.com', '2014-05-19', '2014-05-19 03:42:01', 'Married', NULL, NULL, ''),
+(35, 'Tolorio', 'Shane', 'Gador', 'Muslim', 1, '1970-01-01', 'Manila', 'Bicutan', '09067554498', 'jtalmazan113@gmail.com', '2015-03-07', '2015-03-06 23:55:58', 'Single', NULL, NULL, ''),
+(36, 'Tolorio', 'Shane', 'Gador', 'Muslim', 1, '1970-01-01', 'Manila', 'Bicutan', '09067554498', 'jeffbryan18@gmail.com', '2015-03-07', '2015-03-06 23:57:47', 'Single', NULL, NULL, '');
 
 -- --------------------------------------------------------
 
 --
--- Table structure for table `Rights`
+-- Table structure for table `rights`
 --
 
-CREATE TABLE IF NOT EXISTS `Rights` (
+CREATE TABLE IF NOT EXISTS `rights` (
   `itemname` varchar(64) NOT NULL,
   `type` int(11) NOT NULL,
   `weight` int(11) NOT NULL,
@@ -669,7 +675,8 @@ CREATE TABLE IF NOT EXISTS `timeline` (
   `academicterm_id` int(11) NOT NULL,
   PRIMARY KEY (`Id`),
   KEY `fk_timeline_academicyear1_idx` (`academicyear_id`),
-  KEY `fk_timeline_academicterm1_idx` (`academicterm_id`)
+  KEY `fk_timeline_academicterm1_idx` (`academicterm_id`),
+  KEY `academicyear_id` (`academicyear_id`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=18 ;
 
 --
@@ -698,7 +705,7 @@ CREATE TABLE IF NOT EXISTS `user` (
   PRIMARY KEY (`Id`),
   KEY `fk_User_Profile1_idx` (`Profile_Id`),
   KEY `fk_User_Role1_idx` (`Role_Id`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=34 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=36 ;
 
 --
 -- Dumping data for table `user`
@@ -737,7 +744,9 @@ INSERT INTO `user` (`Id`, `Username`, `Password`, `Profile_Id`, `Role_Id`) VALUE
 (30, 'dbrando', '$2rSzrBA3PacY', 31, 3),
 (31, 'gjoestar', '$2t/8Nf0pc./Y', 32, 2),
 (32, 'lmesina', '$2pWKc5JRwB2k', 33, 3),
-(33, 'vmesina', '$2.VQz1WrYyQs', 34, 2);
+(33, 'vmesina', '$2.VQz1WrYyQs', 34, 2),
+(34, 'stolorio', '$2J1RIhsanZFc', 35, 3),
+(35, 'htolorio', '$2iU23WPCzxl6', 36, 3);
 
 --
 -- Constraints for dumped tables
@@ -758,17 +767,17 @@ ALTER TABLE `application`
   ADD CONSTRAINT `fk_Application_User1` FOREIGN KEY (`User_Id`) REFERENCES `user` (`Id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `AuthAssignment`
+-- Constraints for table `authassignment`
 --
-ALTER TABLE `AuthAssignment`
-  ADD CONSTRAINT `AuthAssignment_ibfk_1` FOREIGN KEY (`itemname`) REFERENCES `AuthItem` (`name`) ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE `authassignment`
+  ADD CONSTRAINT `AuthAssignment_ibfk_1` FOREIGN KEY (`itemname`) REFERENCES `authitem` (`name`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
--- Constraints for table `AuthItemChild`
+-- Constraints for table `authitemchild`
 --
-ALTER TABLE `AuthItemChild`
-  ADD CONSTRAINT `AuthItemChild_ibfk_1` FOREIGN KEY (`parent`) REFERENCES `AuthItem` (`name`) ON DELETE CASCADE ON UPDATE CASCADE,
-  ADD CONSTRAINT `AuthItemChild_ibfk_2` FOREIGN KEY (`child`) REFERENCES `AuthItem` (`name`) ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE `authitemchild`
+  ADD CONSTRAINT `AuthItemChild_ibfk_1` FOREIGN KEY (`parent`) REFERENCES `authitem` (`name`) ON DELETE CASCADE ON UPDATE CASCADE,
+  ADD CONSTRAINT `AuthItemChild_ibfk_2` FOREIGN KEY (`child`) REFERENCES `authitem` (`name`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Constraints for table `grades`
@@ -785,10 +794,10 @@ ALTER TABLE `partnerschool`
   ADD CONSTRAINT `fk_School_has_User_User1` FOREIGN KEY (`User_Id`) REFERENCES `user` (`Id`) ON DELETE NO ACTION ON UPDATE NO ACTION;
 
 --
--- Constraints for table `Rights`
+-- Constraints for table `rights`
 --
-ALTER TABLE `Rights`
-  ADD CONSTRAINT `Rights_ibfk_1` FOREIGN KEY (`itemname`) REFERENCES `AuthItem` (`name`) ON DELETE CASCADE ON UPDATE CASCADE;
+ALTER TABLE `rights`
+  ADD CONSTRAINT `Rights_ibfk_1` FOREIGN KEY (`itemname`) REFERENCES `authitem` (`name`) ON DELETE CASCADE ON UPDATE CASCADE;
 
 --
 -- Constraints for table `sys_table`
