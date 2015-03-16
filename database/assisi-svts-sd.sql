@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 11, 2015 at 04:36 PM
+-- Generation Time: Mar 16, 2015 at 02:18 PM
 -- Server version: 5.6.14
 -- PHP Version: 5.5.6
 
@@ -17,7 +17,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8 */;
 
 --
--- Database: `assisi-svts1`
+-- Database: `assisi-svts-sd`
 --
 
 -- --------------------------------------------------------
@@ -384,6 +384,25 @@ CREATE TABLE IF NOT EXISTS `grades` (
 INSERT INTO `grades` (`Id`, `GPA`, `Timeline_Id`, `Application_Id`) VALUES
 (1, '1.50', 1, 27),
 (2, '2.30', 17, 28);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `graduates`
+--
+
+CREATE TABLE IF NOT EXISTS `graduates` (
+  `id` int(11) NOT NULL AUTO_INCREMENT,
+  `name` varchar(30) NOT NULL,
+  `name_of_school` varchar(30) NOT NULL,
+  `year_started_of_scholarship` year(4) NOT NULL,
+  `year_graduated` year(4) NOT NULL,
+  `course_title` varchar(100) NOT NULL,
+  `honors_recieved` varchar(100) NOT NULL,
+  `current_status` varchar(20) NOT NULL,
+  `current_employment` varchar(100) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
