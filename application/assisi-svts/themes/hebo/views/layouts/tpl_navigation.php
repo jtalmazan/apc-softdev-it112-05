@@ -45,6 +45,15 @@
                                 "data-description"=>"view menus"
                             )
                         ),
+						
+						  array(
+                            'label'=>'Announcement', 
+                            'url'=>array('/announcement/admin'),
+                            'visible'=>Yii::app()->user->checkAccess('Coordinator'), 
+                            'linkOptions'=>array(
+                                "data-description"=>"view menus"
+                            )
+                        ),
                        /* array(
                             'label'=>'Coordinator\'s Operations', 
                             'url'=>array('/grades/admin'),

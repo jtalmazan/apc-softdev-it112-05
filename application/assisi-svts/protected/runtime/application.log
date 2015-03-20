@@ -1611,3 +1611,36 @@ Stack trace:
 #3 {main}
 REQUEST_URI=/githubjtalmazan/index.php?r=announcement
 ---
+2015/03/20 21:39:02 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/githubjtalmazan/index.php?r=site/admin
+HTTP_REFERER=http://localhost/githubjtalmazan/index.php
+---
+2015/03/20 21:39:30 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/githubjtalmazan/index.php?r=site/admin
+HTTP_REFERER=http://localhost/githubjtalmazan/index.php
+---
+2015/03/20 21:39:32 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'The system is unable to find the requested action "admin".' in C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\yii\framework\web\CController.php:483
+Stack trace:
+#0 C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\yii\framework\web\CController.php(270): CController->missingAction('admin')
+#1 C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\yii\framework\web\CWebApplication.php(282): CController->run('admin')
+#2 C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('site/admin')
+#3 C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#4 C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\index.php(13): CApplication->run()
+#5 {main}
+REQUEST_URI=/githubjtalmazan/index.php?r=site/admin
+HTTP_REFERER=http://localhost/githubjtalmazan/index.php
+---
