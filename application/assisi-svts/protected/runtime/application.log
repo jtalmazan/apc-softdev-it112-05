@@ -1595,3 +1595,19 @@ in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\module
 in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\controllers\ProfileController.php (116)
 in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\protected\modules\rights\components\RController.php (37)
 in C:\xampp\htdocs\apc-softdev-it112-05\application\assisi-svts\index.php (13)
+2015/03/20 19:57:14 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "announcement".' in C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('announcement')
+#1 C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/githubjtalmazan/index.php?r=announcement
+---
+2015/03/20 19:57:36 [error] [exception.CHttpException.404] exception 'CHttpException' with message 'Unable to resolve the request "announcement".' in C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\yii\framework\web\CWebApplication.php:286
+Stack trace:
+#0 C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\yii\framework\web\CWebApplication.php(141): CWebApplication->runController('announcement')
+#1 C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\yii\framework\base\CApplication.php(184): CWebApplication->processRequest()
+#2 C:\xampp\htdocs\apc-softdev-it112-05Githubjtalmazan\application\assisi-svts\index.php(13): CApplication->run()
+#3 {main}
+REQUEST_URI=/githubjtalmazan/index.php?r=announcement
+---
