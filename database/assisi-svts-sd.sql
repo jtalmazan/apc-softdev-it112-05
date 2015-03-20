@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Host: 127.0.0.1
--- Generation Time: Mar 16, 2015 at 02:18 PM
+-- Generation Time: Mar 20, 2015 at 06:54 PM
 -- Server version: 5.6.14
 -- PHP Version: 5.5.6
 
@@ -118,6 +118,19 @@ INSERT INTO `allocation` (`id`, `TuitionFee`, `Miscellaneous`, `Others`, `Timeli
 (27, '45000.00', '0.00', '0.00', 1, 27, 1),
 (30, '0.00', '0.00', '0.00', 10, 28, 1),
 (31, '110000.00', '50000.00', '3000.00', 17, 29, 2);
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `announcement`
+--
+
+CREATE TABLE IF NOT EXISTS `announcement` (
+  `id` int(20) NOT NULL AUTO_INCREMENT,
+  `Subject` varchar(150) NOT NULL,
+  `message_box` longtext NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
 
 -- --------------------------------------------------------
 
@@ -402,7 +415,14 @@ CREATE TABLE IF NOT EXISTS `graduates` (
   `current_status` varchar(20) NOT NULL,
   `current_employment` varchar(100) NOT NULL,
   PRIMARY KEY (`id`)
-) ENGINE=InnoDB DEFAULT CHARSET=latin1 AUTO_INCREMENT=1 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+
+--
+-- Dumping data for table `graduates`
+--
+
+INSERT INTO `graduates` (`id`, `name`, `name_of_school`, `year_started_of_scholarship`, `year_graduated`, `course_title`, `honors_recieved`, `current_status`, `current_employment`) VALUES
+(1, 'Dolfe', 'APC', 2013, 2014, 'IT', 'None', 'Employed', 'America');
 
 -- --------------------------------------------------------
 
